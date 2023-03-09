@@ -1,0 +1,11 @@
+<div class="header">
+  <span class="header-left">
+    <app-logo></app-logo>
+    <span>I'm the header from remote layout module</span>
+    <span style="color: orange; font-weight: bold">{{ receivedMessage }}</span>
+  </span>
+  <span>
+    <span style="margin-right: 18px">{{ (user$ | async)?.name }}</span>
+    <button (click)="logout()">Logout</button></span
+  >
+</div>

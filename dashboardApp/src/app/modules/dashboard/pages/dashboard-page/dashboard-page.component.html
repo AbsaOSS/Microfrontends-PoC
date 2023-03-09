@@ -1,0 +1,9 @@
+<p>I'm the remote dashboard module</p>
+<p>
+  Below I have a nested table component, which is imported from another remote
+  module (this is not a good practice, however it is possible)
+</p>
+<div class="table-load-err" *ngIf="tableLoadError">
+  <span>{{ tableLoadError }}</span>
+</div>
+<div #tableContainer></div>

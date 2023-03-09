@@ -1,0 +1,9 @@
+<p>I'm the remote table module, I can send messages to other modules</p>
+<app-demo-table></app-demo-table>
+<button
+  style="margin-right: 18px; margin-top: 18px"
+  (click)="sendMessage('shell')"
+>
+  Send message to the shell
+</button>
+<button (click)="sendMessage('layout')">Send message to layout module</button>

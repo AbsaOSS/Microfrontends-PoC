@@ -1,0 +1,30 @@
+.subheader {
+  padding: 12px;
+  box-shadow: 0 0 3px 1px #bb262640;
+  justify-content: space-between;
+  width: 100%;
+  background: #870a3c;
+
+  a {
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    width: 100px;
+
+    &:hover {
+      background: #640032;
+    }
+  }
+}
+
+.hdr-info {
+  color: rgb(195, 185, 185);
+  margin-left: 30px;
+}
+
+.active-link {
+  background: #500a28;
+  &:hover {
+    background: #500a28 !important;
+  }
+}

@@ -1,0 +1,24 @@
+.header {
+  padding: 5px 20px 5px 20px;
+  box-shadow: 0 0 3px 1px #80808040;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &-left {
+    align-items: center;
+    display: flex;
+    span {
+      margin-left: 24px;
+    }
+  }
+}
+
+button {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 30px;
+  border: none;
+  background: #870a3c;
+  cursor: pointer;
+  color: white;
+}

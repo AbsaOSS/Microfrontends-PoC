@@ -1,0 +1,14 @@
+<main>
+  <header #header></header>
+  <div class="content">
+    <app-navbar></app-navbar>
+    <div class="page-content">
+      <router-outlet *ngIf="!loadingRouteConfig; else loading"></router-outlet>
+      <ng-template #loading>
+        <app-loader></app-loader>
+      </ng-template>
+    </div>
+  </div>
+  <footer #footer></footer>
+  <footer #footer1></footer>
+</main>
