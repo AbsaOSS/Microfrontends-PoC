@@ -26,6 +26,7 @@ This demo uses SSO authentication based on Auth0 platform. AuthService is shared
 
 ##### pwd: qwerty123!
 -----
+### The general idea behind
 
 ![Microfrontends](https://user-images.githubusercontent.com/104006376/224008590-bae40cc3-6ad8-4289-9940-f6540f6dc9b9.png)
 
